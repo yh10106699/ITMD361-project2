@@ -1,0 +1,50 @@
+body {
+  background:url('background.jpg');
+  background-repeat: repeat;
+  background-size: 100%;
+}
+
+
+
+.navbar{
+  position: relative;
+  padding: 0.5rem 1rem;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar a.active{
+  background-color: #4b5132;
+  color: white;
+}
+
+.navbar ul{
+  background-color: #e67300;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navbar li{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  float: right;
+  list-style-type: none;
+
+}
+.navbar li a{
+  display: inclineblock;
+  text-align:center;
+  text-decoration: none;
+  padding: 15px;
+  transition: all 0.3s;
+
+}
+
+.navbar a:hover{
+  background-color: #29B6E6;
+  border-bottom: 5px solid #29B6F6;
+
+
+}
