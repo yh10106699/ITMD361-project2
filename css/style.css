@@ -45,7 +45,7 @@
 
 }
 .navbar a{
-  display: inclineblock;
+  display: inline-block;
   text-align:center;
   text-decoration: none;
   padding: 15px;
