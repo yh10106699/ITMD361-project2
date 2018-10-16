@@ -1,9 +1,21 @@
-body {
+.indexbody {
+  background:url('indexbackground.jpg');
+  background-repeat: repeat;
+  background-size: 100%;
+}
+
+
+.resumebody {
   background:url('background.jpg');
   background-repeat: repeat;
   background-size: 100%;
 }
 
+.bnsbody {
+  background:url('bnsbackground.jpg');
+  background-repeat: repeat;
+  background-size: 100%;
+}
 
 .navbar{
   position: relative;
@@ -86,6 +98,7 @@ body {
   margin: 30px auto;
   padding-bottom: 40px;
   background: #ECEFF1;
+  opacity: 0.9;
 }
 
 .subsection{
@@ -144,6 +157,7 @@ body {
   margin: 30px auto;
   padding-bottom: 40px;
   background: #ECEFF1;
+  opacity: 0.9;
 }
 
 .bns-wrapper h1{
