@@ -62,3 +62,8 @@ body {
 .resumeTitle{
   text-align: center;
 }
+
+.content-wrapper section{
+  margin: 10px 40px 30px 40px;
+  animation: fadein 0.5s;
+}
