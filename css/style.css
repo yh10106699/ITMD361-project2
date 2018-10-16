@@ -47,7 +47,7 @@ body {
   border-bottom: 5px solid #29B6F6;
 }
 
-.content-wrapper {
+.resume-wrapper {
   padding-bottom: 20px;
   position: relative;
   width: 80%;
@@ -65,15 +65,29 @@ body {
   color: #ff6600;
 }
 
-.content-wrapper section{
+.resume-wrapper section{
   margin: 10px 40px 30px 40px;
   animation: fadein 0.5s
 }
 
-.content-wrapper h2{
+.resuem-wrapper h2{
   margin: 10px auto;
   padding-bottom: 10px;
   font-size: 25px;
   font-weight: 700;
   border-bottom: 1px solid #333;
+}
+
+.index-wrapper{
+  padding-bottom: 20px;
+  position: relative;
+  width: 90%;
+  margin: 20px auto;
+  padding-bottom: 40px;
+}
+
+
+
+.one{
+
 }
