@@ -61,6 +61,8 @@ body {
 
 .resumeTitle{
   text-align: center;
+  font-size: 35px;
+  color: #ff6600;
 }
 
 .content-wrapper section{
