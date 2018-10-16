@@ -67,10 +67,10 @@ body {
 
 .resume-wrapper section{
   margin: 10px 40px 30px 40px;
-  animation: fadein 0.5s
+  animation: fadein 0.5s;
 }
 
-.resuem-wrapper h2{
+.resume-wrapper h2{
   margin: 10px auto;
   padding-bottom: 10px;
   font-size: 25px;
@@ -81,13 +81,41 @@ body {
 .index-wrapper{
   padding-bottom: 20px;
   position: relative;
-  width: 90%;
-  margin: 20px auto;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 2px #999;
+  margin: 30px auto;
   padding-bottom: 40px;
+  background: #ECEFF1;
 }
 
-
+.subsection{
+  width: auto;
+  height: auto;
+  margin: 30px 20px 30px 20px;
+  overflow:hidden;
+}
 
 .one{
+  display:block;
+  width: 40%;
+  height: auto;
+  float: right;
+  position: relative;
+  animation: fadein 2s;
+  margin-right: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 2px #999;
+}
 
+.subsection h2{
+  text-align: center;
+  margin: 10px auto;
+  padding-bottom: 10px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.subsection p{
+  font-family: 'Raleway', sans-serif;
 }
