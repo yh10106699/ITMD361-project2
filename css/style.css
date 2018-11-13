@@ -133,7 +133,7 @@ time, mark, audio, video {
 }
 
 .one{
-  display:block;
+  display:inline-block;
   width: 40%;
   height: auto;
   float: right;
@@ -160,16 +160,17 @@ time, mark, audio, video {
   text-align: center;
   margin: 10px auto;
   padding-bottom: 10px;
-  font-size: 30px;
+  font-size: 3em;
   font-weight: 700;
 }
 
 .subsection p{
   font-family: 'Raleway', sans-serif;
+  font-size: 1.8em;
 }
 
 .subsection h3{
-  font-size: 20px;
+  font-size: 2.5em;
 }
 
 .bns-wrapper{
@@ -199,6 +200,10 @@ time, mark, audio, video {
   height: auto;
 }
 
+.subsection h2{
+  text-align: center;
+}
+
 .bnsimage{
   display:block;
   width: 30%;
@@ -209,4 +214,8 @@ time, mark, audio, video {
   margin-right: 20px;
   border-radius: 10px;
   box-shadow: 0px 0px 20px 2px #999;
+}
+
+.bnsvideo{
+  display: inline-block;
 }
