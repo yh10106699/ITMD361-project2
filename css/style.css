@@ -116,7 +116,7 @@ time, mark, audio, video {
 .resume-wrapper h3 {
   display: block;
   font-size: 1.17em;
-  -webkit-margin-before: 1__qem;
+  -webkit-margin-before: 1em;
   -webkit-margin-after: 1em;
   -webkit-margin-start: 0;
   -webkit-margin-end: 0;
@@ -126,7 +126,7 @@ time, mark, audio, video {
 .resume-wrapper ul{
   display: block;
   list-style-type: disc;
-  -webkit-margin-before: 1__qem;
+  -webkit-margin-before: 1em;
   -webkit-margin-after: 1em;
   -webkit-margin-start: 0;
   -webkit-margin-end: 0;
